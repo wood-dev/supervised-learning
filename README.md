@@ -141,7 +141,7 @@ Table 3 - k-NN performance
 
 As expected, the query time is much higher on Census Income because of higher k-value and more features are accessed when calculating distance metric. Generally speaking the accuracy is acceptable (higher than 0.5) but lower than the previous two algorithms, detailed comparison will be shown in the later section. One of the possible reasons is that the features may have different weighting, therefore normal (default) distance function may not work well. More research in distance function may generate higher accuracy.
 ## <a name="_mvetkmpa9ebh"></a>Boosting
-From lecture we know that boosting ensemble meta-algorithms for reducing bias, and also variance in supervised learning, is used to convert weak learners to a strong learner. The experiment here is to examine boosting performance with its default parameter that the Decision Tree previously used is the base estimator and 50 estimators is adopted. The best maximum depth and training size found in the first experiment would be taken to contrast the performance of boosting under the same decision tree setting.
+From research we know that boosting ensemble meta-algorithms for reducing bias, and also variance in supervised learning, is used to convert weak learners to a strong learner. The experiment here is to examine boosting performance with its default parameter that the Decision Tree previously used is the base estimator and 50 estimators is adopted. The best maximum depth and training size found in the first experiment would be taken to contrast the performance of boosting under the same decision tree setting.
 
 
 ||**Decision Tree**|**Boosting**|
