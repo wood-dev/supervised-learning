@@ -1,0 +1,22 @@
+DT 0 training time: 0.040975 seconds.
+DT 0 lookup time: 0.006996 seconds.
+DT 1 training time: 0.228857 seconds.
+DT 1 lookup time: 0.009996 seconds.
+
+NN 0 training time: 18.095582 seconds.
+NN 0 lookup time: 0.009995 seconds.
+
+NN 0 training time: 18.233010 seconds.
+NN 0 lookup time: 0.001000 seconds.
+NN 1 training time: 43.708732 seconds.
+NN 1 lookup time: 0.002998 seconds.
+
+
+kNN 0 training time: 0.133811 seconds.
+kNN 0 lookup time: 0.166447 seconds.
+
+kNN 1 training time: 1.321519 seconds.
+kNN 1 lookup time: 0.536672 seconds.
+
+kNN 1 training time: 1.421253 seconds.
+kNN 1 lookup time: 0.568657 seconds.

@@ -1,0 +1,4 @@
+Categorical data handling:
+https://machinelearningmastery.com/how-to-one-hot-encode-sequence-data-in-python/
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.get_dummies.html
+https://towardsdatascience.com/what-is-one-hot-encoding-and-how-to-use-pandas-get-dummies-function-922eb9bd4970

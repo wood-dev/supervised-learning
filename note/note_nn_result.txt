@@ -1,0 +1,168 @@
+accuracy
+precision
+recall
+f1-score
+
+Best parameters found:
+ {'hidden_layer_sizes': (5, 5, 5), 'learning_rate': 'constant', 'max_iter': 300, 'solver': 'adam'}
+[[974  43]
+ [106 110]]
+              precision    recall  f1-score   support
+
+           0       0.90      0.96      0.93      1017
+           1       0.72      0.51      0.60       216
+
+    accuracy                           0.88      1233
+   macro avg       0.81      0.73      0.76      1233
+weighted avg       0.87      0.88      0.87      1233
+
+
+Best parameters found:
+ {'hidden_layer_sizes': (15, 15), 'learning_rate': 'constant', 'max_iter': 100, 'solver': 'adam'}
+[[973  44]
+ [ 99 117]]
+              precision    recall  f1-score   support
+
+           0       0.91      0.96      0.93      1017
+           1       0.73      0.54      0.62       216
+
+    accuracy                           0.88      1233
+   macro avg       0.82      0.75      0.78      1233
+weighted avg       0.88      0.88      0.88      1233
+
+
+Best parameters found:
+ {'hidden_layer_sizes': (15, 15), 'learning_rate': 'constant', 'max_iter': 100, 'solver': 'adam'}
+[[973  44]
+ [ 92 124]]
+              precision    recall  f1-score   support
+
+           0       0.91      0.96      0.93      1017
+           1       0.74      0.57      0.65       216
+
+    accuracy                           0.89      1233
+   macro avg       0.83      0.77      0.79      1233
+weighted avg       0.88      0.89      0.88      1233
+
+ {'hidden_layer_sizes': (10, 10), 'learning_rate': 'adaptive', 'max_iter': 300, 'solver': 'adam'}
+[[973  44]
+ [ 95 121]]
+              precision    recall  f1-score   support
+
+           0       0.91      0.96      0.93      1017
+           1       0.73      0.56      0.64       216
+
+    accuracy                           0.89      1233
+   macro avg       0.82      0.76      0.78      1233
+weighted avg       0.88      0.89      0.88      1233
+
+Best parameters found:
+ {'hidden_layer_sizes': (5, 5), 'learning_rate': 'constant', 'max_iter': 500, 'solver': 'adam'}
+[[968  49]
+ [102 114]]
+              precision    recall  f1-score   support
+
+           0       0.90      0.95      0.93      1017
+           1       0.70      0.53      0.60       216
+
+    accuracy                           0.88      1233
+   macro avg       0.80      0.74      0.76      1233
+weighted avg       0.87      0.88      0.87      1233
+
+
+Best parameters found:
+ {'hidden_layer_sizes': (10, 10), 'learning_rate': 'constant', 'max_iter': 700, 'solver': 'adam'}
+[[971  46]
+ [101 115]]
+              precision    recall  f1-score   support
+
+           0       0.91      0.95      0.93      1017
+           1       0.71      0.53      0.61       216
+
+    accuracy                           0.88      1233
+   macro avg       0.81      0.74      0.77      1233
+weighted avg       0.87      0.88      0.87      1233
+
+--------------
+
+Best parameters found:
+ {'hidden_layer_sizes': (15, 15, 15), 'learning_rate': 'adaptive', 'max_iter': 300, 'solver': 'sgd'}
+[[2261  179]
+ [ 329  488]]
+              precision    recall  f1-score   support
+
+           0       0.87      0.93      0.90      2440
+           1       0.73      0.60      0.66       817
+
+    accuracy                           0.84      3257
+   macro avg       0.80      0.76      0.78      3257
+weighted avg       0.84      0.84      0.84      3257
+
+Best parameters found:
+ {'hidden_layer_sizes': (20, 20), 'learning_rate': 'adaptive', 'max_iter': 300, 'solver': 'sgd'}
+[[2255  185]
+ [ 328  489]]
+              precision    recall  f1-score   support
+
+           0       0.87      0.92      0.90      2440
+           1       0.73      0.60      0.66       817
+
+    accuracy                           0.84      3257
+   macro avg       0.80      0.76      0.78      3257
+weighted avg       0.84      0.84      0.84      3257
+
+Best parameters found:
+ {'hidden_layer_sizes': (20, 20, 20), 'learning_rate': 'constant', 'max_iter': 500, 'solver': 'sgd'}
+[[2245  195]
+ [ 325  492]]
+              precision    recall  f1-score   support
+
+           0       0.87      0.92      0.90      2440
+           1       0.72      0.60      0.65       817
+
+    accuracy                           0.84      3257
+   macro avg       0.79      0.76      0.78      3257
+weighted avg       0.83      0.84      0.84      3257
+
+
+Best parameters found:
+ {'hidden_layer_sizes': (20, 20), 'learning_rate': 'constant', 'max_iter': 700, 'solver': 'sgd'}
+[[2262  178]
+ [ 334  483]]
+              precision    recall  f1-score   support
+
+           0       0.87      0.93      0.90      2440
+           1       0.73      0.59      0.65       817
+
+    accuracy                           0.84      3257
+   macro avg       0.80      0.76      0.78      3257
+weighted avg       0.84      0.84      0.84      3257
+
+Best parameters found:
+ {'hidden_layer_sizes': (25, 25), 'learning_rate': 'adaptive', 'max_iter': 500, 'solver': 'sgd'}
+[[2260  180]
+ [ 332  485]]
+              precision    recall  f1-score   support
+
+           0       0.87      0.93      0.90      2440
+           1       0.73      0.59      0.65       817
+
+    accuracy                           0.84      3257
+   macro avg       0.80      0.76      0.78      3257
+weighted avg       0.84      0.84      0.84      3257
+
+
+---
+
+Best parameters found:
+ {'hidden_layer_sizes': (20, 20), 'learning_rate': 'constant', 'max_iter': 300, 'solver': 'sgd'}
+[[971  46]
+ [ 90 126]]
+              precision    recall  f1-score   support
+
+           0       0.92      0.95      0.93      1017
+           1       0.73      0.58      0.65       216
+
+    accuracy                           0.89      1233
+   macro avg       0.82      0.77      0.79      1233
+weighted avg       0.88      0.89      0.88      1233

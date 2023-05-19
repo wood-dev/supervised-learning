@@ -1,0 +1,86 @@
+ cd 'c:\Users\User\Documents\Wodi\OMSCS\CS7641\p1'; & 'c:\Users\User\Miniconda3\envs\ml\python.exe' 'c:\Users\User\.vscode\extensions\ms-python.python-2020.8.105369\pythonFiles\lib\python\debugpy\launcher' '55084' '--' 'SupervisedLearning.py' 
+Boosting 0 - n_estimator: 50
+Boosting 0 training time: 1.841938 seconds.
+Boosting 0 lookup time: 0.030260 seconds.
+[[95  8]
+ [10 11]]
+              precision    recall  f1-score   support
+
+           0       0.90      0.92      0.91       103
+           1       0.58      0.52      0.55        21
+
+    accuracy                           0.85       124
+   macro avg       0.74      0.72      0.73       124
+weighted avg       0.85      0.85      0.85       124
+
+Boosting 0 - n_estimator: 10000
+Boosting 0 training time: 327.661869 seconds.
+Boosting 0 lookup time: 3.755384 seconds.
+[[100   3]
+ [ 11  10]]
+              precision    recall  f1-score   support
+
+           0       0.90      0.97      0.93       103
+           1       0.77      0.48      0.59        21
+
+    accuracy                           0.89       124
+   macro avg       0.84      0.72      0.76       124
+weighted avg       0.88      0.89      0.88       124
+
+Boosting 1 - n_estimator: 50
+Boosting 1 training time: 13.486021 seconds.
+Boosting 1 lookup time: 0.032980 seconds.
+[[211  20]
+ [ 38  57]]
+              precision    recall  f1-score   support
+
+           0       0.85      0.91      0.88       231
+           1       0.74      0.60      0.66        95
+
+    accuracy                           0.82       326
+   macro avg       0.79      0.76      0.77       326
+weighted avg       0.82      0.82      0.82       326
+
+
+Boosting 1 - n_estimator: 10000
+Boosting 1 training time: 1256.448569 seconds.
+Boosting 1 lookup time: 4.476779 seconds.
+[[209  22]
+ [ 34  61]]
+              precision    recall  f1-score   support
+
+           0       0.86      0.90      0.88       231
+           1       0.73      0.64      0.69        95
+
+    accuracy                           0.83       326
+   macro avg       0.80      0.77      0.78       326
+weighted avg       0.82      0.83      0.82       326
+
+---
+
+Boosting 0 - n_estimator: 50, depth: 14
+Boosting 0 training time: 4.271883 seconds.
+Boosting 0 lookup time: 0.027980 seconds.
+[[101   2]
+ [ 11  10]]
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94       103
+           1       0.83      0.48      0.61        21
+    accuracy                           0.90       124
+   macro avg       0.87      0.73      0.77       124
+weighted avg       0.89      0.90      0.88       124
+
+Boosting 1 - n_estimator: 50, depth: 2
+Boosting 1 training time: 3.357933 seconds.
+Boosting 1 lookup time: 0.034981 seconds.
+[[216  15]
+ [ 24  71]]
+              precision    recall  f1-score   support
+
+           0       0.90      0.94      0.92       231
+           1       0.83      0.75      0.78        95
+
+    accuracy                           0.88       326
+   macro avg       0.86      0.84      0.85       326
+weighted avg       0.88      0.88      0.88       326
