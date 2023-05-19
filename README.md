@@ -1,24 +1,5 @@
 ﻿# <a name="_169nm0qpy49h"></a>Supervised Learning 
 
-## <a name="_x932szno6yil"></a>Running under Anaconda
-1. The environment file for anaconda is environment.yml
-1. By default, the program can be executed by the command `./python SupervisedLearning.py`
-It will then 
-	- loading data from dataset 1, online_shoppers_intention.csv and process 
-	- generate graphs into ./graph
-	- print performance statistic (if any) to console output
-Same process will be repeated on dataset 2, census_income.csv 
-1. To switch between different algorithms and dataset, `main()` in SupervisedLearning.py should be modified. A complete set of codes have been already written and commented by default. So uncommenting would allow execution on additional algorithms and datasets. For example, uncommenting the following code would run NeuralNetworks on dataset 1.
-
-		data = loadData_1(encode_category = True)
-		nn = NeuralNetworks(IDENTIFIER_1, FILENAME_1)
-		nn.analyze(data)			
-1. By default, all algorithms will perform a full analysis. In case of a rerun on a particular chart or statistics, it can be done by commenting out functions from `analyze()` in [algorithm].py that are not required. For example, in `analyze()` of DecisionTree.py, commenting out first 3 lines will get the program print only the final decision tree and performance report.
-
-		self.analyzeMaxDepthVsAccuracy(data)
-		self.analyzeTrainSizeVsAccuracy(data)
-		self.analyzeMaxDepthVsMaxTestingAccuracy(data)
-		self.printDecisionTreeAndPerformance(data)
 ## <a name="_x932szno6yil"></a>Dataset
 The datasets chosen for the supervised learning experiments are **Online Shoppers Intention** and **Census Income Data**. Data is taken from Machine Learning Repository [1], manually transformed and standardised to meet the experiment setting. 
 
@@ -298,3 +279,22 @@ In our experiments, the number of features have been significantly increased wit
 1. Sunil RayI am a Business Analytics and Intelligence professional with deep experience in the Indian Insurance industry. I have worked for various multi-national Insurance companies in last 7 years. “SVM: Support Vector Machine Algorithm in Machine Learning.” *Analytics Vidhya*, 15 Apr. 2020, www.analyticsvidhya.com/blog/2017/09/understaing-support-vector-machine-example-code/. 
 1. Solutions, Exsilio, and \* Name. “Accuracy, Precision, Recall & F1 Score: Interpretation of Performance Measures.” *Exsilio Blog*, 11 Nov. 2016, blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/. 
 
+## <a name="_x932szno6yil"></a>Running under Anaconda
+1. The environment file for anaconda is environment.yml
+1. By default, the program can be executed by the command `./python SupervisedLearning.py`
+It will then 
+	- loading data from dataset 1, online_shoppers_intention.csv and process 
+	- generate graphs into ./graph
+	- print performance statistic (if any) to console output
+Same process will be repeated on dataset 2, census_income.csv 
+1. To switch between different algorithms and dataset, `main()` in SupervisedLearning.py should be modified. A complete set of codes have been already written and commented by default. So uncommenting would allow execution on additional algorithms and datasets. For example, uncommenting the following code would run NeuralNetworks on dataset 1.
+
+		data = loadData_1(encode_category = True)
+		nn = NeuralNetworks(IDENTIFIER_1, FILENAME_1)
+		nn.analyze(data)			
+1. By default, all algorithms will perform a full analysis. In case of a rerun on a particular chart or statistics, it can be done by commenting out functions from `analyze()` in [algorithm].py that are not required. For example, in `analyze()` of DecisionTree.py, commenting out first 3 lines will get the program print only the final decision tree and performance report.
+
+		self.analyzeMaxDepthVsAccuracy(data)
+		self.analyzeTrainSizeVsAccuracy(data)
+		self.analyzeMaxDepthVsMaxTestingAccuracy(data)
+		self.printDecisionTreeAndPerformance(data)
